@@ -5,7 +5,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
-
+    
+    public Transform spawnPos;
+    
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
@@ -22,6 +24,11 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         
+        var target = new Vector3(40,5,0);
+
+        transform.position = spawnPos.position;
+        transform.LookAt(target);
+
     }
 
     // Update is called once per frame
