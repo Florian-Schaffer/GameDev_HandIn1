@@ -348,9 +348,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 420438365}
-  spawnPos: {fileID: 1860327039}
+  spawnPos: {fileID: 1091423778}
   playerPos: {fileID: 1209030868}
-  speed: 12
+  speed: 2
   gravity: -9.81
   jumpHeight: 3
   groundCheck: {fileID: 1076414191}
@@ -892,9 +892,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1030775910}
-  spawnPos: {fileID: 1860327039}
+  spawnPos: {fileID: 1883603146}
   playerPos: {fileID: 1209030868}
-  speed: 12
+  speed: 2
   gravity: -9.81
   jumpHeight: 3
   groundCheck: {fileID: 1650770794}
@@ -1041,7 +1041,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091423777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.35, y: 23.7, z: 8.4}
+  m_LocalPosition: {x: 11.86, y: 18.49, z: 60.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2096194365}
@@ -1658,7 +1658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612088654}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40.3, y: 21.35, z: -38.34}
+  m_LocalPosition: {x: -40.3, y: 21.35, z: 10.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2096194365}
@@ -1776,7 +1776,7 @@ MonoBehaviour:
   controller: {fileID: 1843736158}
   spawnPos: {fileID: 1860327039}
   playerPos: {fileID: 1209030868}
-  speed: 12
+  speed: 2
   gravity: -9.81
   jumpHeight: 3
   groundCheck: {fileID: 1874752557}
@@ -1942,7 +1942,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860327038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.38, y: 22.35, z: 62.05}
+  m_LocalPosition: {x: -39.38, y: 16.53, z: 109.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2096194365}
@@ -2002,7 +2002,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883603145}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -91.67, y: 21.47, z: 13.6}
+  m_LocalPosition: {x: -91.67, y: 18.05, z: 50.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2096194365}
@@ -2076,9 +2076,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1906621483}
-  spawnPos: {fileID: 1860327039}
+  spawnPos: {fileID: 1612088655}
   playerPos: {fileID: 1209030868}
-  speed: 12
+  speed: 2
   gravity: -9.81
   jumpHeight: 3
   groundCheck: {fileID: 2113090221}

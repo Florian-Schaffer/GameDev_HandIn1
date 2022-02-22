@@ -43,6 +43,7 @@ public class EnemyMovement : MonoBehaviour
         var player = GameObject.FindWithTag("Player");
 
         var distance = Vector3.Distance(transform.position, player.transform.position);
+        transform.LookAt(playerPos.position);
 
         if(distance > 15){
             controller.Move(move * speed * Time.deltaTime);
